@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 
 export default function AboutSection() {
@@ -10,7 +11,7 @@ export default function AboutSection() {
       {/* Image Section */}
       <div className="md:w-1/2 flex justify-center mb-10 md:mb-0">
         <Image
-          src="/mimi3.jpeg"
+          src="/daniella.jpeg"
           alt="Daniella"
           width={256}
           height={256}
@@ -20,29 +21,27 @@ export default function AboutSection() {
 
       {/* Text Section */}
       <div className="md:w-1/2 md:pl-12 text-center md:text-left">
+        {" "}
         <h2 className="text-4xl font-bold mb-6 bg-black bg-clip-text text-transparent">
-          ABOUT ME
-        </h2>
+          {" "}
+          ABOUT ME{" "}
+        </h2>{" "}
         <p className="text-lg leading-relaxed mb-6">
-          Hi there! I'm a developer and problem solver at heart who thrives on
-          turning challenges into elegant solutions.
-        </p>
+          {" "}
+          I'm a Full Stack Developer based in Lagos, building secure,
+          user-focused web and mobile apps with React, Node.js and Spring Boot, plus mobile
+          apps with Flutter.{" "}
+        </p>{" "}
         <p className="text-lg leading-relaxed mb-6">
-          Beyond code, I'm passionate about learning, collaborating, leading,
-          and pushing boundaries in multiple fields. My goal is to craft digital
-          experiences that are not only functional but also meaningful.
-        </p>
-        <p className="text-lg leading-relaxed mb-6">
-          Off the clock, you'd often catch me on reality TV shows, indulging in
-          my love for music, or exploring the latest fashion and tech trends.
-          Creativity and poise inspire me, and you'll often find those qualities
-          reflected in my projects and daily life.
-        </p>
-        <p className="text-lg leading-relaxed mb-6">
-          I'm currently focused on building backend systems and exploring AI
-          integration, while continuing to grow my skills in full‑stack
-          development.
-        </p>
+          {" "}
+          I've built and deployed projects including a Java quiz platform with
+          OTP email verification, an online voting system, an auction app and a
+          smart home app. I've worked in teams of four to five, and I'm now
+          adding AI features to my apps, starting with the AI assistant in
+          HarvestHub. I'm open to junior developer, internship and contract
+          roles where I can build impactful products with a strong engineering
+          team.{" "}
+        </p>{" "}
       </div>
     </section>
   );

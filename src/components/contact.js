@@ -150,7 +150,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://x.com/Mimi__Daniella"
+                    href="https://x.com/daniella_alagwu"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-black hover:text-[var(--blue)] underline underline-offset-4 transition-colors"
