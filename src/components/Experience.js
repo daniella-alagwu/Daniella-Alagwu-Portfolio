@@ -5,12 +5,12 @@ export default function Experience() {
   const stats = [
     {
       label: "Projects & Technical Experience",
-      value: "8+ Projects",
+      value: "5 Live Projects",
       accent: "var(--pink-dark)",
     },
     {
       label: "Collaborations & Contributions",
-      value: "Team of 4-5",
+      value: "• Team of 4 to 5 on collaborative builds ",
       accent: "var(--blue)",
     },
     {

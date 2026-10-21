@@ -8,10 +8,6 @@ export default function Footer() {
         {/* Brand / About */}
         <div>
           <h3 className="text-xl font-bold mb-3">Daniella Alagwu</h3>
-          <p className="text-sm text-white/80">
-            Building modern web experiences with Next.js, TailwindCSS, and a
-            passion for clean design.
-          </p>
         </div>
 
         {/* Quick Links */}

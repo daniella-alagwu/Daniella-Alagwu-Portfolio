@@ -10,28 +10,16 @@ export default function Skills() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/10"></div>
 
-      <div className="relative max-w-6xl mx-auto px-6 text-center lg:mt-6">
+      <div className="relative max-w-6xl mx-auto px-6 text-center ">
         <h2 className="text-4xl font-bold mb-2  bg-black bg-clip-text text-transparent pt-14 lg:pt-2">
           Skills
         </h2>
         <p className="text-black mb-12">
-          A diverse toolkit of technologies &  <br/> frameworks I excel in.
+          A diverse toolkit of technologies & <br /> frameworks I work with.
         </p>
       </div>
 
       <div className="flex flex-wrap justify-center gap-10 py-4 px-8">
-        {/* HTML */}
-        <div className="flex flex-col items-center animate-fadeInUp">
-          <i className="devicon-html5-plain colored text-7xl "></i>
-          <span className="mt-2 text-base font-medium text-blue-900">HTML</span>
-        </div>
-
-        {/* CSS */}
-        <div className="flex flex-col items-center animate-fadeInUp">
-          <i className="devicon-css3-plain colored text-7xl "></i>
-          <span className="mt-2 text-base font-medium text-blue-900">CSS</span>
-        </div>
-
         {/* JavaScript */}
         <div className="flex flex-col items-center animate-fadeInUp">
           <img
@@ -41,6 +29,26 @@ export default function Skills() {
           <span className="mt-2 text-base font-medium text-blue-900">
             JavaScript
           </span>
+        </div>
+
+        {/* Flutter */}
+        <div className="flex flex-col items-center animate-fadeInUp">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+            className="h-18 w-auto"
+          />
+          <span className="mt-2 text-base font-medium text-blue-900">
+            Flutter
+          </span>
+        </div>
+
+        {/* Dart */}
+        <div className="flex flex-col items-center animate-fadeInUp">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+            className="h-18 w-auto"
+          />
+          <span className="mt-2 text-base font-medium text-blue-900">Dart</span>
         </div>
 
         {/* React */}
@@ -60,6 +68,20 @@ export default function Skills() {
           <span className="mt-2 text-base font-medium text-blue-900">
             Next.js
           </span>
+        </div>
+
+        {/* HTML */}
+        <div className="flex flex-col items-center animate-fadeInUp">
+          <i className="devicon-html5-plain colored text-7xl "></i>
+          <span className="mt-2 text-base font-medium text-blue-900">
+            HTML5
+          </span>
+        </div>
+
+        {/* CSS */}
+        <div className="flex flex-col items-center animate-fadeInUp">
+          <i className="devicon-css3-plain colored text-7xl "></i>
+          <span className="mt-2 text-base font-medium text-blue-900">CSS3 </span>
         </div>
 
         {/* Express.js */}

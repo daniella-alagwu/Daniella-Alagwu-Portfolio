@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Daniella Alagwu",
+  title: "Daniella Alagwu | Full Stack Developer & AI Engineer",
   description:
-    "Portfolio website for Daniella Alagwu, showcasing projects and skills in software engineering.",
+    "Full-stack developer in Lagos building secure web and mobile applications.",
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         {children}
-        <ToastProvider  />
+        <ToastProvider />
       </body>
     </html>
   );
